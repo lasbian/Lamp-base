@@ -6,10 +6,109 @@
     "uniqueID": "73bb9b32-68da-4f33-bb23-9c4875046a6b",
     "ioValues": [],
     "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": "cfc1fae0-a71d-4a21-9d07-eeb2856a5080",
+            "ioValues": []
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.23374999999999999,
+            "y": 0.40170940170940167,
+            "uniqueID": "10dedccc-e2e0-4219-a81c-9ab3268cd775",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ]
+        },
+        {
+            "atomType": "Constant",
+            "name": "Constant",
+            "x": 0.09125000000000001,
+            "y": 0.39886039886039887,
+            "uniqueID": "2495b878-f18a-4672-b7a3-9dfbb03b29bc",
+            "ioValues": [],
+            "value": 10
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.23374999999999999,
+            "y": 0.6182336182336182,
+            "uniqueID": "b28d0229-8971-41b3-8c7d-abb9ebb44519",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ]
+        },
+        {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.23562499999999997,
+            "y": 0.5897435897435898,
+            "uniqueID": "0c674bb8-f04a-44ec-9ecc-a607298d74de",
+            "ioValues": []
+        },
+        {
+            "atomType": "Fusion",
+            "name": "Fusion",
+            "x": 0.33562499999999995,
+            "y": 0.5897435897435898,
+            "uniqueID": "2867207a-8161-4024-a295-b63aebecf37b",
+            "ioValues": [
+                {
+                    "name": "Shape 1",
+                    "ioValue": null
+                }
+            ],
+            "unionType": "Fusion"
+        }
+    ],
+    "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap1ID": "10dedccc-e2e0-4219-a81c-9ab3268cd775",
+            "ap2ID": "cfc1fae0-a71d-4a21-9d07-eeb2856a5080"
+        },
+        {
+            "ap1Name": "number",
+            "ap2Name": "diameter",
+            "ap1ID": "2495b878-f18a-4672-b7a3-9dfbb03b29bc",
+            "ap2ID": "10dedccc-e2e0-4219-a81c-9ab3268cd775"
+        },
+        {
+            "ap1Name": "number",
+            "ap2Name": "diameter",
+            "ap1ID": "2495b878-f18a-4672-b7a3-9dfbb03b29bc",
+            "ap2ID": "b28d0229-8971-41b3-8c7d-abb9ebb44519"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry1",
+            "ap1ID": "b28d0229-8971-41b3-8c7d-abb9ebb44519",
+            "ap2ID": "0c674bb8-f04a-44ec-9ecc-a607298d74de"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 1",
+            "ap1ID": "0c674bb8-f04a-44ec-9ecc-a607298d74de",
+            "ap2ID": "2867207a-8161-4024-a295-b63aebecf37b"
+        }
+    ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
-    "compiledBom": {},
+    "compiledBom": [],
     "filetypeVersion": 1
 }
