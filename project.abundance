@@ -1,0 +1,15 @@
+{
+    "atomType": "Molecule",
+    "name": "Lamp base",
+    "x": 0,
+    "y": 0,
+    "uniqueID": "73bb9b32-68da-4f33-bb23-9c4875046a6b",
+    "ioValues": [],
+    "topLevel": true,
+    "allAtoms": [],
+    "allConnectors": [],
+    "unitsKey": "MM",
+    "fileTypeVersion": 1,
+    "compiledBom": {},
+    "filetypeVersion": 1
+}
