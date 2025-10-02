@@ -1,114 +1,128 @@
 {
-    "atomType": "Molecule",
-    "name": "Lamp base",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "73bb9b32-68da-4f33-bb23-9c4875046a6b",
-    "ioValues": [],
-    "topLevel": true,
-    "allAtoms": [
+  "atomType": "Molecule",
+  "name": "Lamp base",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "73bb9b32-68da-4f33-bb23-9c4875046a6b",
+  "ioValues": [],
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "name": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "cfc1fae0-a71d-4a21-9d07-eeb2856a5080",
+      "ioValues": []
+    },
+    {
+      "atomType": "Constant",
+      "name": "Constant",
+      "x": 0.09125000000000001,
+      "y": 0.39886039886039887,
+      "uniqueID": "2495b878-f18a-4672-b7a3-9dfbb03b29bc",
+      "ioValues": [],
+      "value": 5
+    },
+    {
+      "atomType": "Rectangle",
+      "name": "Rectangle",
+      "x": 0.24875000000000003,
+      "y": 0.33048433048433046,
+      "uniqueID": "ea7b01a4-5849-4ad1-9f65-54b3d4601ffe",
+      "ioValues": [
         {
-            "atomType": "Output",
-            "name": "Output",
-            "x": 0.98,
-            "y": 0.5,
-            "uniqueID": "cfc1fae0-a71d-4a21-9d07-eeb2856a5080",
-            "ioValues": []
+          "name": "x length",
+          "ioValue": 5
         },
         {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.23374999999999999,
-            "y": 0.40170940170940167,
-            "uniqueID": "10dedccc-e2e0-4219-a81c-9ab3268cd775",
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 10,
-                    "currentEquation": null
-                }
-            ]
-        },
-        {
-            "atomType": "Constant",
-            "name": "Constant",
-            "x": 0.09125000000000001,
-            "y": 0.39886039886039887,
-            "uniqueID": "2495b878-f18a-4672-b7a3-9dfbb03b29bc",
-            "ioValues": [],
-            "value": 10
-        },
-        {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.23374999999999999,
-            "y": 0.6182336182336182,
-            "uniqueID": "b28d0229-8971-41b3-8c7d-abb9ebb44519",
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 10,
-                    "currentEquation": null
-                }
-            ]
-        },
-        {
-            "atomType": "Difference",
-            "name": "Difference",
-            "x": 0.23562499999999997,
-            "y": 0.5897435897435898,
-            "uniqueID": "0c674bb8-f04a-44ec-9ecc-a607298d74de",
-            "ioValues": []
-        },
-        {
-            "atomType": "Fusion",
-            "name": "Fusion",
-            "x": 0.33562499999999995,
-            "y": 0.5897435897435898,
-            "uniqueID": "2867207a-8161-4024-a295-b63aebecf37b",
-            "ioValues": [
-                {
-                    "name": "Shape 1",
-                    "ioValue": null
-                }
-            ],
-            "unionType": "Fusion"
+          "name": "y length",
+          "ioValue": 5
         }
-    ],
-    "allConnectors": [
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "name": "Extrude",
+      "x": 0.344375,
+      "y": 0.1908831908831909,
+      "uniqueID": "32d36bf6-1f85-4d24-8adc-72a2104c0490",
+      "ioValues": [
         {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap1ID": "10dedccc-e2e0-4219-a81c-9ab3268cd775",
-            "ap2ID": "cfc1fae0-a71d-4a21-9d07-eeb2856a5080"
-        },
-        {
-            "ap1Name": "number",
-            "ap2Name": "diameter",
-            "ap1ID": "2495b878-f18a-4672-b7a3-9dfbb03b29bc",
-            "ap2ID": "10dedccc-e2e0-4219-a81c-9ab3268cd775"
-        },
-        {
-            "ap1Name": "number",
-            "ap2Name": "diameter",
-            "ap1ID": "2495b878-f18a-4672-b7a3-9dfbb03b29bc",
-            "ap2ID": "b28d0229-8971-41b3-8c7d-abb9ebb44519"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry1",
-            "ap1ID": "b28d0229-8971-41b3-8c7d-abb9ebb44519",
-            "ap2ID": "0c674bb8-f04a-44ec-9ecc-a607298d74de"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "Shape 1",
-            "ap1ID": "0c674bb8-f04a-44ec-9ecc-a607298d74de",
-            "ap2ID": "2867207a-8161-4024-a295-b63aebecf37b"
+          "name": "height",
+          "ioValue": 5
         }
-    ],
-    "unitsKey": "MM",
-    "fileTypeVersion": 1,
-    "compiledBom": [],
-    "filetypeVersion": 1
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "name": "Rectangle",
+      "x": 0.284375,
+      "y": 0.6609686609686609,
+      "uniqueID": "d24b1aa8-2214-4b19-9c8a-42f67306d6b2",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 8,
+          "currentEquation": "10"
+        },
+        {
+          "name": "y length",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Constant",
+      "name": "LegDepth",
+      "x": 0.10687500000000001,
+      "y": 0.7122507122507123,
+      "uniqueID": "bc9509d8-5a18-4a7a-b48c-130178864788",
+      "ioValues": [],
+      "value": 8
+    }
+  ],
+  "allConnectors": [
+    {
+      "ap1Name": "number",
+      "ap2Name": "y length",
+      "ap1ID": "2495b878-f18a-4672-b7a3-9dfbb03b29bc",
+      "ap2ID": "ea7b01a4-5849-4ad1-9f65-54b3d4601ffe"
+    },
+    {
+      "ap1Name": "number",
+      "ap2Name": "x length",
+      "ap1ID": "2495b878-f18a-4672-b7a3-9dfbb03b29bc",
+      "ap2ID": "ea7b01a4-5849-4ad1-9f65-54b3d4601ffe"
+    },
+    {
+      "ap1Name": "number",
+      "ap2Name": "height",
+      "ap1ID": "2495b878-f18a-4672-b7a3-9dfbb03b29bc",
+      "ap2ID": "32d36bf6-1f85-4d24-8adc-72a2104c0490"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "number or geometry",
+      "ap1ID": "ea7b01a4-5849-4ad1-9f65-54b3d4601ffe",
+      "ap2ID": "cfc1fae0-a71d-4a21-9d07-eeb2856a5080"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "ea7b01a4-5849-4ad1-9f65-54b3d4601ffe",
+      "ap2ID": "32d36bf6-1f85-4d24-8adc-72a2104c0490"
+    },
+    {
+      "ap1Name": "number",
+      "ap2Name": "x length",
+      "ap1ID": "bc9509d8-5a18-4a7a-b48c-130178864788",
+      "ap2ID": "d24b1aa8-2214-4b19-9c8a-42f67306d6b2"
+    },
+    null
+  ],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "compiledBom": [],
+  "filetypeVersion": 1
 }
